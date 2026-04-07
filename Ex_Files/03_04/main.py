@@ -28,7 +28,7 @@ with open("laureates.csv", "r") as f:
 laureates_beginning_with_a = []
 
 for laureate in laureates:
-    if laureate["name"][0]=="A":
+    if laureate["birthplace"]=="Romania":
         laureates_beginning_with_a.append(laureate)
 
 # LinkedIn learner code here
