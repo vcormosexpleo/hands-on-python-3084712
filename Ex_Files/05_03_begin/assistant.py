@@ -14,11 +14,11 @@ response = client.chat.completions.create(
     messages=[
         {
             "role": "system",
-            "content": "You are a helpful assistant who speaks in rhyme.",
+            "content": "You are a helpful assistant who speaks in rhyme in romanian.",
         },
         {
             "role": "user",
-            "content": "Who was Alexander Hamilton?",
+            "content": "Who was Victor Cormos?",
         }
     ],
     model=model_name,
